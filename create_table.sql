@@ -54,3 +54,7 @@ VALUES
 ('Latha', 44000, 'Support', 9876543247),
 ('Ramesh', 74000, 'IT', 9876543248),
 ('Bhavna', 50000, 'HR', 9876543249);
+
+
+-- to see the table 
+SELECT * from employees;
