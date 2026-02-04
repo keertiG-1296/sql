@@ -9,7 +9,7 @@ CREATE TABLE employees(
 );
 
 -- to insert the value in the table
-INSERT INTO employees
+INSERT INTO employees(name, salary, department, phoneNo)
 VALUES
 ('Amit', 45000, 'HR', 9876543210),
 ('Neha', 52000, 'Finance', 9876543211),
@@ -58,3 +58,7 @@ VALUES
 
 -- to see the table 
 SELECT * from employees;
+
+-- to alter the table
+ALTER TABLE employees
+MODIFY phoneNO BIGINT;
