@@ -12,3 +12,6 @@ emp_id	name	salary	department
 
 SELECT name , salary, department 
 FROM employee
+WHERE salary IS NOT NULL 
+GROUP BY department
+HAVING COUNT(*)>2;
