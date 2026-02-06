@@ -8,4 +8,4 @@ WHERE salary IN (
     ORDER BY salary DESC
     LIMIT 2
 )
-ORDER BY salary DESC;
+ORDER BY salary DESC; 
